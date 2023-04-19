@@ -1,0 +1,23 @@
+{
+  "name": "sales-report",
+  "version": "1.0.0",
+  "description": "Sales Report Saas",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imamsutono/sales-report-saas.git"
+  },
+  "keywords": [
+    "sales",
+    "report"
+  ],
+  "author": "Imam Sutono",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/imamsutono/sales-report-saas/issues"
+  },
+  "homepage": "https://github.com/imamsutono/sales-report-saas#readme"
+}
