@@ -5,7 +5,8 @@ module.exports = {
     extend: {
       colors: {
         'primary': '#6D7BFA',
-        'primary-light': '#edeffe'
+        'primary-light': '#edeffe',
+        'cyan-custom': '#6DC7FA',
       },
       fontFamily: {
         'poppins': ['Poppins', 'sans-serif'],
