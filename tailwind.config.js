@@ -7,6 +7,7 @@ module.exports = {
         'primary': '#6D7BFA',
         'primary-light': '#edeffe',
         'cyan-custom': '#6DC7FA',
+        'gray-footer': '#F4F5F7',
       },
       fontFamily: {
         'poppins': ['Poppins', 'sans-serif'],
