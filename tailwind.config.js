@@ -12,6 +12,9 @@ module.exports = {
         'inter': ['Inter', 'sans-serif'],
       }
     },
+    container: {
+      padding: '2rem'
+    }
   },
   plugins: [],
 }

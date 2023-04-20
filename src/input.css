@@ -8,4 +8,27 @@
   body {
     @apply font-poppins;
   }
+
+  .chip {
+    @apply border border-primary bg-primary-light text-primary text-xs ms-1 p-1 rounded;
+  }
+  .badge {
+    @apply bg-primary-light text-primary text-xs font-semibold uppercase rounded inline p-2 tracking-widest;
+  }
+  .order {
+    @apply text-white text-sm font-bold bg-cyan-500 w-9 h-9 rounded-full flex items-center justify-center;
+  }
+
+  .button {
+    @apply font-inter font-semibold rounded-lg;
+  }
+  .button-primary {
+    @apply button bg-primary text-white py-3 px-5;
+  }
+  .button-border {
+    @apply button text-primary active:bg-primary px-4 py-3 border-2 border-primary-light;
+  }
+  .button-border-small {
+    @apply button-border text-xs;
+  }
 }

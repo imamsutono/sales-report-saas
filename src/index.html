@@ -6,7 +6,9 @@
   <link href="/dist/output.css" rel="stylesheet">
 </head>
 <body>
-  <nav class="p-5 bg-white mb-12">
+  <img src="/img/hero.png" alt="hero" class="w-full absolute top-0 -z-50">
+ 
+  <nav class="py-5 px-10 bg-white mb-12 z-50">
     <div class="flex justify-between items-center">
       
       <img src="/img/logo-repotae.png" alt="logo" class="w-24 object-contain">
@@ -19,11 +21,11 @@
 
         <div class="px-4">
           <span>Order</span>
-          <span class="border border-primary bg-primary-light text-primary text-xs ms-1 p-1 rounded">New</span>
+          <span class="chip">New</span>
         </div>
       </div>
 
-      <button class="text-primary text-xs font-semibold rounded-lg mr-1 mb-1 active:bg-primary px-4 py-3 border-2 border-primary-light font-inter">Sign Up Now!</button>
+      <button class="button-border-small">Sign Up Now!</button>
     </div>
   </nav>
 
@@ -44,11 +46,71 @@
     </h1>
 
     <div id="cta" class="mt-10">
-      <button class="font-inter font-semibold bg-primary text-white py-3 px-5 rounded-lg me-1">Sign Up Now!</button>
+      <button class="button-primary me-1">Sign Up Now!</button>
       <button class="font-inter font-semibold text-primary py-3 px-5 rounded-lg shadow ms-1">Demo Video</button>
     </div>
-
-    <img src="/img/hero.png" alt="hero" class="w-full absolute top-0">
   </header>
+
+  <main class="container bg-white mt-96">
+    <div class="p-20 rounded-xl">
+      <!-- client -->
+      <div class="flex justify-between">
+        <img src="/img/client/payumoney.png" class="object-contain" alt="client payumoney">
+        <img src="/img/client/cargomatic.png" class="object-contain" alt="client cargomatic">
+        <img src="/img/client/monday-marketer.png" class="object-contain" alt="client monday marketer">
+        <img src="/img/client/telia-company.png" class="object-contain" alt="client telia company">
+        <img src="/img/client/telestream.png" class="object-contain" alt="client telestream">
+      </div>
+      <!-- end of client -->
+
+      <!-- feature 1 -->
+      <div class="flex items-center mt-20">
+        <div class="pe-5">
+          <p class="badge">Report AE Platform</p>
+          <h1 class="text-4xl font-bold leading-snug my-5">
+            Boost your sales performance with<br>our platform.
+          </h1>
+          <p class="text-gray-400 mb-5">
+            Transform your social media approach and elevate your online presence with our powerful analytics platform that delivers real-time insights and results.
+          </p>
+
+          <button class="button-primary">Sign Up Now!</button>
+          <button class="button-border ms-3">Demo Video</button>
+        </div>
+
+        <img src="/img/feature-1.png" alt="boost" class="w-1/2 ps-10">
+      </div>
+      <!-- end feature 1 -->
+
+      <!-- feature 2 -->
+      <div class="flex mt-40">
+        <img src="/img/feature-2.png" alt="boost" class="w-1/2">
+
+        <div class="ps-20">
+          <p class="badge">Report AE Platform</p>
+          <h1 class="text-4xl font-bold leading-snug my-5">
+            Optimize sales with data-driven insights and analytics.
+          </h1>
+          <p class="text-gray-400 mb-8">
+            Our intelligent sales reporting and analytics platform provides a complete view of your sales data, empowering you to make data-driven decisions, increase efficiency and drive revenue growth.
+          </p>
+
+          <div class="flex flex-row items-center">
+            <div class="order">1</div>
+            <span class="ms-3 font-bold">Streamlined sales analysis</span>
+          </div>
+          <div class="flex flex-row items-center mt-5">
+            <div class="order">2</div>
+            <span class="ms-3 font-bold">Enhanced sales performance tracking</span>
+          </div>
+          <div class="flex flex-row items-center mt-5">
+            <div class="order">3</div>
+            <span class="ms-3 font-bold">Improved decision making</span>
+          </div>
+        </div>
+      </div>
+      <!-- end feature 2 -->
+    </div>
+  </main>
 </body>
 </html>
