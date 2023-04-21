@@ -20,7 +20,7 @@
   }
 
   .button {
-    @apply font-inter font-semibold rounded-lg;
+    @apply font-inter font-semibold rounded-lg text-xs sm:text-base;
   }
   .button-primary {
     @apply button bg-primary text-white py-3 px-5;
@@ -30,6 +30,9 @@
   }
   .button-border-small {
     @apply button-border text-xs;
+  }
+  .button-shadow {
+    @apply button text-primary py-3 px-5 shadow bg-white;
   }
 
   .title {
