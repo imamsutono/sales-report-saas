@@ -19,7 +19,12 @@ module.exports = {
     },
     container: {
       padding: '2rem'
+    },
+    animatedSettings: {
+      classes: ['fadeInUp']
     }
   },
-  plugins: [],
+  plugins: [
+    require('tailwindcss-animatecss'),
+  ],
 }

@@ -54,7 +54,7 @@
   </nav>
 
   <header class="flex flex-col items-center mt-10 sm:mt-16">
-    <div id="rating" class="mb-2 sm:mb-6">
+    <div id="rating" class="mb-2 sm:mb-6 fadeInUp">
       <img src="/img/ic_outline-star.png" alt="star" class="inline w-4 sm:w-5">
       <img src="/img/ic_outline-star.png" alt="star" class="inline w-4 sm:w-5">
       <img src="/img/ic_outline-star.png" alt="star" class="inline w-4 sm:w-5">
@@ -65,19 +65,19 @@
       <span class="text-gray-400 text-xs sm:text-base">(1k+ Reviews)</span>
     </div>
 
-    <h1 id="tagline" class="text-center text-xl sm:text-5xl font-bold leading-snug">
+    <h1 id="tagline" class="text-center text-xl sm:text-5xl font-bold leading-snug fadeInUp">
       Transform Your Sales Strategy<br>
       with Accurate Reporting
     </h1>
 
-    <div id="cta" class="mt-10">
+    <div id="cta" class="mt-10 fadeInUp">
       <button class="button-primary me-1">Sign Up Now!</button>
       <button class="button-shadow ms-1">Demo Video</button>
     </div>
   </header>
 
-  <main class="container bg-white mt-20 lg:mt-96">
-    <div class="py-5 lg:p-20 rounded-xl">
+  <main class="container bg-white mt-20 lg:mt-96 mx-auto">
+    <div class="py-5 lg:p-12 rounded-xl">
       <!-- client -->
       <div class="flex justify-between relative max-w-full">
         <img src="/img/client/payumoney.png" class="object-contain w-1/5 sm:w-auto" alt="client payumoney">
@@ -91,45 +91,47 @@
       <!-- feature 1 -->
       <div class="flex flex-col-reverse sm:flex-row sm:items-center mt-20">
         <div class="pe-5">
-          <p class="badge">Report AE Platform</p>
-          <h1 class="title">
+          <p class="badge show-on-scroll">Report AE Platform</p>
+          <h1 class="title show-on-scroll">
             Boost your sales performance with our platform.
           </h1>
-          <p class="text-gray-400 mb-5">
+          <p class="text-gray-400 mb-5 show-on-scroll">
             Transform your social media approach and elevate your online presence with our powerful analytics platform that delivers real-time insights and results.
           </p>
 
-          <button class="button-primary">Sign Up Now!</button>
-          <button class="button-border ms-3">Demo Video</button>
+          <div class="show-on-scroll">
+            <button class="button-primary">Sign Up Now!</button>
+            <button class="button-border ms-3">Demo Video</button>
+          </div>
         </div>
 
-        <img src="/img/feature-1.png" alt="boost" class="sm:w-1/2 sm:ps-10 mb-10 sm:mb-0">
+        <img src="/img/feature-1.png" alt="boost" class="sm:w-1/2 sm:ps-10 mb-10 sm:mb-0 show-on-scroll">
       </div>
       <!-- end feature 1 -->
 
       <!-- feature 2 -->
       <div class="flex flex-col sm:flex-row mt-20 sm:mt-40">
-        <img src="/img/feature-2.png" alt="boost" class="sm:w-1/2 mb-10 sm:mb-0">
+        <img src="/img/feature-2.png" alt="boost" class="sm:w-1/2 mb-10 sm:mb-0 object-contain show-on-scroll">
 
         <div class="sm:ps-20">
-          <p class="badge">Report AE Platform</p>
-          <h1 class="title">
+          <p class="badge show-on-scroll">Report AE Platform</p>
+          <h1 class="title show-on-scroll">
             Optimize sales with data-driven insights and analytics.
           </h1>
-          <p class="text-gray-400 mb-8">
+          <p class="text-gray-400 mb-8 show-on-scroll">
             Our intelligent sales reporting and analytics platform provides a complete view of your sales 
             data, empowering you to make data-driven decisions, increase efficiency and drive revenue growth.
           </p>
 
-          <div class="flex flex-row items-center">
+          <div class="flex flex-row items-center show-on-scroll">
             <div class="order">1</div>
             <span class="ms-3 font-bold">Streamlined sales analysis</span>
           </div>
-          <div class="flex flex-row items-center mt-5">
+          <div class="flex flex-row items-center mt-5 show-on-scroll">
             <div class="order">2</div>
             <span class="ms-3 font-bold">Enhanced sales performance tracking</span>
           </div>
-          <div class="flex flex-row items-center mt-5">
+          <div class="flex flex-row items-center mt-5 show-on-scroll">
             <div class="order">3</div>
             <span class="ms-3 font-bold">Improved decision making</span>
           </div>
@@ -139,7 +141,7 @@
 
       <!-- features horizontal -->
       <div class="flex flex-col sm:flex-row justify-between gap-7 mt-20 sm:mt-40">
-        <div class="border pt-8 flex flex-col items-center rounded-3xl w-full">
+        <div class="border pt-8 flex flex-col items-center rounded-3xl w-full show-on-scroll">
           <img src="/img/mockup/rocket.png" alt="rocket" class="mb-8">
 
           <p class="text-2xl font-bold text-center">
@@ -150,7 +152,7 @@
           <img src="/img/mockup/1.png" alt="mockup streamline" class="mt-10">
         </div>
 
-        <div class="border pt-8 flex flex-col items-center rounded-3xl w-full">
+        <div class="border pt-8 flex flex-col items-center rounded-3xl w-full show-on-scroll">
           <img src="/img/mockup/rocket.png" alt="rocket" class="mb-8">
 
           <p class="text-2xl font-bold text-center">
@@ -161,7 +163,7 @@
           <img src="/img/mockup/2.png" alt="mockup decision making" class="mt-10">
         </div>
 
-        <div class="border pt-8 flex flex-col items-center rounded-3xl bg-primary w-full">
+        <div class="border pt-8 flex flex-col items-center rounded-3xl bg-primary w-full show-on-scroll">
           <img src="/img/mockup/rocket.png" alt="rocket" class="mb-8">
 
           <p class="text-2xl font-bold text-center text-white">
@@ -174,20 +176,18 @@
       </div>
       <!-- end features horizontal -->
 
-      <hr class="my-20">
+      <hr class="my-20 show-on-scroll">
 
       <!-- testimony -->
       <div class="flex flex-col sm:flex-row justify-between sm:max-h-510 overflow-hidden">
-        <div class="w-full me-24">
+        <div class="w-full me-24 show-on-scroll">
           <img src="/img/quote.png" alt="quote">
           <p class="title mt-14">
-            Our client speaks
-            highly of us, why not
-            try it for yourself?
+            Our client speaks highly of us, why not try it for yourself?
           </p>
         </div>
 
-        <div class="w-full">
+        <div class="w-full show-on-scroll">
           <div class="border p-8 rounded-xl">
             <div class="flex">
               <img src="/img/client-1.png" alt="client">
@@ -247,12 +247,12 @@
 
       <!-- expectation -->
       <div id="expectation" class="mt-20 sm:mt-40">
-        <p class="title text-center">
+        <p class="title text-center show-on-scroll">
           What can you expect to receive<br>
           from our platform?
         </p>
 
-        <div class="mt-20 flex flex-col sm:flex-row justify-between">
+        <div class="mt-20 flex flex-col sm:flex-row justify-between show-on-scroll">
           <div class="flex flex-col items-center w-full mb-10">
             <div class="bg-primary w-32 h-32 rounded-full flex justify-center items-center">
               <p class="text-white text-3xl">36%</p>
@@ -285,8 +285,8 @@
     </div>
   </main>
 
-  <footer class="bg-gray-footer p-8 sm:p-20">
-    <div class="flex flex-col sm:flex-row">
+  <footer class="bg-gray-footer p-8 sm:p-16">
+    <div class="flex flex-col sm:flex-row show-on-scroll">
       <div class="sm:w-2/3 mb-8 sm:mb-0">
         <img src="/img/logo-repotae.png" alt="logo footer">
         <p class="mt-6 text-sm sm:w-1/2">
@@ -332,7 +332,7 @@
       </div>
     </div>
 
-    <p class="text-center text-xs sm:text-base mt-24">
+    <p class="text-center text-xs sm:text-sm mt-24 show-on-scroll">
       Copyright © 2023 Reportae Group Pte Ltd. All Rights Reserved
     </p>
   </footer>
@@ -343,6 +343,22 @@
       hamburger.classList.toggle('opacity-0');
       hamburger.classList.toggle('opacity-100');
     }
+
+    const callback = function (entries) {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add("fadeInUp");
+        }
+      });
+    };
+
+    const observer = new IntersectionObserver(callback);
+
+    const targets = document.querySelectorAll(".show-on-scroll");
+    targets.forEach(function (target) {
+      target.classList.add("opacity-0");
+      observer.observe(target);
+    });
   </script>
 </body>
 </html>
