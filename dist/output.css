@@ -761,12 +761,20 @@ body{
   visibility: hidden;
 }
 
+.fixed{
+  position: fixed;
+}
+
 .absolute{
   position: absolute;
 }
 
 .relative{
   position: relative;
+}
+
+.sticky{
+  position: sticky;
 }
 
 .top-20{
@@ -785,9 +793,23 @@ body{
   z-index: 50;
 }
 
+.m-1{
+  margin: 0.25rem;
+}
+
 .my-20{
   margin-top: 5rem;
   margin-bottom: 5rem;
+}
+
+.mx-auto{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.my-auto{
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 .mb-10{
@@ -866,6 +888,14 @@ body{
   margin-top: 1.5rem;
 }
 
+.mt-auto{
+  margin-top: auto;
+}
+
+.mt-8{
+  margin-top: 2rem;
+}
+
 .block{
   display: block;
 }
@@ -878,6 +908,10 @@ body{
   display: flex;
 }
 
+.hidden{
+  display: none;
+}
+
 .h-0{
   height: 0px;
 }
@@ -888,6 +922,10 @@ body{
 
 .h-32{
   height: 8rem;
+}
+
+.h-full{
+  height: 100%;
 }
 
 .w-1\/5{
@@ -972,6 +1010,10 @@ body{
   margin-bottom: calc(1rem * var(--tw-space-y-reverse));
 }
 
+.self-center{
+  align-self: center;
+}
+
 .overflow-hidden{
   overflow: hidden;
 }
@@ -1023,6 +1065,10 @@ body{
 
 .p-8{
   padding: 2rem;
+}
+
+.p-5{
+  padding: 1.25rem;
 }
 
 .px-4{
@@ -1139,6 +1185,14 @@ body{
     margin-top: 10rem;
   }
 
+  .sm\:mb-14{
+    margin-bottom: 3.5rem;
+  }
+
+  .sm\:mb-16{
+    margin-bottom: 4rem;
+  }
+
   .sm\:max-h-510{
     max-height: 510px;
   }
@@ -1153,6 +1207,14 @@ body{
 
   .sm\:w-5{
     width: 1.25rem;
+  }
+
+  .sm\:w-full{
+    width: 100%;
+  }
+
+  .sm\:w-auto{
+    width: auto;
   }
 
   .sm\:flex-row{
@@ -1205,6 +1267,18 @@ body{
 
   .md\:invisible{
     visibility: hidden;
+  }
+
+  .md\:block{
+    display: block;
+  }
+
+  .md\:flex{
+    display: flex;
+  }
+
+  .md\:hidden{
+    display: none;
   }
 }
 

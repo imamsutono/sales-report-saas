@@ -8,33 +8,34 @@
 <body class="max-w-full overflow-x-hidden">
   <img src="/img/hero.png" alt="hero" class="w-full absolute sm:top-0 top-32 -z-50">
  
-  <nav class="sm:py-5 px-5 sm:px-10 bg-white sm:mb-12 z-50">
+  <nav class="p-5 sm:px-10 bg-white mb-10 sm:mb-16 z-50 w-full">
     <div class="flex justify-between items-center">
       <img src="/img/logo-repotae.png" alt="logo" class="w-24 object-contain">
 
       <!-- desktop menu -->
-      <div id="desktop-menu" class="flex justify-between font-inter">
-        <div class="invisible md:visible">
-          <span class="font-semibold px-4">Homepage</span>
-          <span class="px-4">About Us</span>
-          <span class="px-4">Projects</span>
-          <span class="px-4">Product</span>
-  
-          <div class="px-4">
-            <span>Order</span>
-            <span class="chip">New</span>
-          </div>
+      <div id="desktop-menu" class="justify-between font-inter hidden md:flex">
+        <span class="font-semibold px-4">Homepage</span>
+        <span class="px-4">About Us</span>
+        <span class="px-4">Projects</span>
+        <span class="px-4">Product</span>
+
+        <div class="px-4">
+          <span>Order</span>
+          <span class="chip">New</span>
         </div>
       </div>
 
-      <div class="flex items-center justify-end w-full">
-        <button class="button-border-small invisible md:visible">Sign Up Now!</button>
+      <div>
         <!-- hamburger -->
-        <div id="hamburger" class="visible md:invisible space-y-1.5" onclick="toggleMobileMenu()">
-          <span class="block h-0.5 w-5 bg-primary"></span>
-          <span class="block h-0.5 w-7 bg-primary"></span>
-          <span class="block h-0.5 w-7 bg-primary"></span>
+        <div class="justify-end flex md:hidden">
+          <div id="hamburger" class="space-y-1.5" onclick="toggleMobileMenu()">
+            <span class="block h-0.5 w-5 bg-primary"></span>
+            <span class="block h-0.5 w-7 bg-primary"></span>
+            <span class="block h-0.5 w-7 bg-primary"></span>
+          </div>
         </div>
+
+        <button class="button-border-small hidden md:block">Sign Up Now!</button>
       </div>
     </div>
 
@@ -79,11 +80,11 @@
     <div class="py-5 lg:p-20 rounded-xl">
       <!-- client -->
       <div class="flex justify-between relative max-w-full">
-        <img src="/img/client/payumoney.png" class="object-contain w-1/5" alt="client payumoney">
-        <img src="/img/client/cargomatic.png" class="object-contain w-1/5" alt="client cargomatic">
-        <img src="/img/client/monday-marketer.png" class="object-contain w-1/5" alt="client monday marketer">
-        <img src="/img/client/telia-company.png" class="object-contain w-1/5" alt="client telia company">
-        <img src="/img/client/telestream.png" class="object-contain w-1/5" alt="client telestream">
+        <img src="/img/client/payumoney.png" class="object-contain w-1/5 sm:w-auto" alt="client payumoney">
+        <img src="/img/client/cargomatic.png" class="object-contain w-1/5 sm:w-auto" alt="client cargomatic">
+        <img src="/img/client/monday-marketer.png" class="object-contain w-1/5 sm:w-auto" alt="client monday marketer">
+        <img src="/img/client/telia-company.png" class="object-contain w-1/5 sm:w-auto" alt="client telia company">
+        <img src="/img/client/telestream.png" class="object-contain w-1/5 sm:w-auto" alt="client telestream">
       </div>
       <!-- end of client -->
 
