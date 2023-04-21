@@ -23,10 +23,10 @@
     @apply font-inter font-semibold rounded-lg text-xs sm:text-base;
   }
   .button-primary {
-    @apply button bg-primary text-white py-3 px-5;
+    @apply button bg-primary text-white py-3 px-5 hover:bg-blue-700;
   }
   .button-border {
-    @apply button text-primary active:bg-primary px-4 py-3 border-2 border-primary-light;
+    @apply button text-primary px-4 py-3 border-2 border-primary-light hover:bg-primary-light;
   }
   .button-border-small {
     @apply button-border text-xs;

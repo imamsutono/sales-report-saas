@@ -8,7 +8,7 @@
 <body class="max-w-full overflow-x-hidden">
   <img src="/img/hero.png" alt="hero" class="w-full absolute sm:top-0 top-32 -z-50">
  
-  <nav class="p-5 sm:px-10 bg-white mb-10 sm:mb-16 z-50 w-full">
+  <nav class="p-5 sm:px-10 bg-white z-50 w-full sticky top-0">
     <div class="flex justify-between items-center">
       <img src="/img/logo-repotae.png" alt="logo" class="w-24 object-contain">
 
@@ -28,7 +28,7 @@
       <div>
         <!-- hamburger -->
         <div class="justify-end flex md:hidden">
-          <div id="hamburger" class="space-y-1.5" onclick="toggleMobileMenu()">
+          <div id="hamburger" class="space-y-1.5 active:animate-ping" onclick="toggleMobileMenu()">
             <span class="block h-0.5 w-5 bg-primary"></span>
             <span class="block h-0.5 w-7 bg-primary"></span>
             <span class="block h-0.5 w-7 bg-primary"></span>
@@ -40,7 +40,7 @@
     </div>
 
     <!-- mobile menu -->
-    <div id="mobile-menu" class="flex flex-col font-inter text-sm space-y-4 py-6 invisible absolute top-20 bg-white w-full">
+    <div id="mobile-menu" class="flex flex-col font-inter text-sm space-y-4 py-6 absolute top-10 bg-white w-full transition-all duration-500 opacity-0 md:hidden">
       <span class="font-semibold px-4">Homepage</span>
       <span class="px-4">About Us</span>
       <span class="px-4">Projects</span>
@@ -53,7 +53,7 @@
     </div>
   </nav>
 
-  <header class="flex flex-col items-center">
+  <header class="flex flex-col items-center mt-10 sm:mt-16">
     <div id="rating" class="mb-2 sm:mb-6">
       <img src="/img/ic_outline-star.png" alt="star" class="inline w-4 sm:w-5">
       <img src="/img/ic_outline-star.png" alt="star" class="inline w-4 sm:w-5">
@@ -340,7 +340,8 @@
   <script>
     function toggleMobileMenu() {
       const hamburger = document.querySelector('#mobile-menu');
-      hamburger.classList.toggle('invisible');
+      hamburger.classList.toggle('opacity-0');
+      hamburger.classList.toggle('opacity-100');
     }
   </script>
 </body>
