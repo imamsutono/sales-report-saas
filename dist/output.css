@@ -559,8 +559,7 @@ body{
 }
 
 .chip{
-  -webkit-margin-start: 0.25rem;
-          margin-inline-start: 0.25rem;
+  margin-inline-start: 0.25rem;
   border-radius: 0.25rem;
   border-width: 1px;
   --tw-border-opacity: 1;
@@ -831,23 +830,19 @@ body{
 }
 
 .me-1{
-  -webkit-margin-end: 0.25rem;
-          margin-inline-end: 0.25rem;
+  margin-inline-end: 0.25rem;
 }
 
 .me-24{
-  -webkit-margin-end: 6rem;
-          margin-inline-end: 6rem;
+  margin-inline-end: 6rem;
 }
 
 .ms-1{
-  -webkit-margin-start: 0.25rem;
-          margin-inline-start: 0.25rem;
+  margin-inline-start: 0.25rem;
 }
 
 .ms-3{
-  -webkit-margin-start: 0.75rem;
-          margin-inline-start: 0.75rem;
+  margin-inline-start: 0.75rem;
 }
 
 .mt-1{
@@ -1065,8 +1060,7 @@ body{
 }
 
 .pe-5{
-  -webkit-padding-end: 1.25rem;
-          padding-inline-end: 1.25rem;
+  padding-inline-end: 1.25rem;
 }
 
 .pt-8{
@@ -1227,20 +1221,8 @@ body{
     align-items: center;
   }
 
-  .sm\:p-20{
-    padding: 5rem;
-  }
-
   .sm\:p-16{
     padding: 4rem;
-  }
-
-  .sm\:p-12{
-    padding: 3rem;
-  }
-
-  .sm\:p-14{
-    padding: 3.5rem;
   }
 
   .sm\:px-10{
@@ -1249,13 +1231,11 @@ body{
   }
 
   .sm\:ps-10{
-    -webkit-padding-start: 2.5rem;
-            padding-inline-start: 2.5rem;
+    padding-inline-start: 2.5rem;
   }
 
   .sm\:ps-20{
-    -webkit-padding-start: 5rem;
-            padding-inline-start: 5rem;
+    padding-inline-start: 5rem;
   }
 
   .sm\:text-5xl{
