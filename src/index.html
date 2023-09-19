@@ -357,11 +357,13 @@
     </div>
 
     <p class="text-center text-xs sm:text-sm mt-24 show-on-scroll">
-      Copyright © 2023 Reportae Group Pte Ltd. All Rights Reserved
+      Copyright © <span id="year"></span> Reportae Group Pte Ltd. All Rights Reserved
     </p>
   </footer>
 
   <script>
+    document.getElementById('year').innerText = new Date().getFullYear();
+
     function toggleMobileMenu() {
       const hamburger = document.querySelector('#mobile-menu');
       hamburger.classList.toggle('opacity-0');
