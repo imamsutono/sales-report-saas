@@ -13,6 +13,7 @@ Halo `devs`! Ini adalah panduan untuk membantu kamu menginstal dan menggunakan t
    - [Mengedit Konten](#mengedit-konten)
    - [Mengubah atau Menambah Style](#mengubah-atau-menambah-style)
    - [Menambahkan Halaman Baru](#menambahkan-halaman-baru)
+   - [Mendeploy Kode ke Production](#mendeploy-kode-ke-production)
 
 3. **Lisensi**
    - [Lisensi Penggunaan](#lisensi-penggunaan)
@@ -54,6 +55,11 @@ Untuk keperluan ini, kamu perlu menggunakan `npm` atau `yarn` agar file `dist/ou
 
 ### Menambahkan Halaman Baru
 Jika kamu ingin menambahkan halaman baru, cukup salin file `src/index.html` dan beri nama baru sesuai dengan kebutuhan kamu. Pastikan untuk menghubungkan halaman baru tersebut dengan file `src/index.html` untuk navigasi yang lancar.
+
+### Mendeploy Kode ke Production
+Jika website sudah siap, dan kamu akan menguploadnya ke lingkungan production, lakukan langkah berikut:
+- Jalankan perintah `npm run build` di terminal untuk mendapatkan file css dengan versi yang sudah dioptimasi
+- Ubah pemanggilan file css di `src/index.html` dari `../dist/output.css` menjadi `../dist/build.css`
 
 ## Lisensi
 
