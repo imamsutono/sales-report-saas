@@ -17,7 +17,10 @@ Halo `devs`! Ini adalah panduan untuk membantu kamu menginstal dan menggunakan t
 3. **Lisensi**
    - [Lisensi Penggunaan](#lisensi-penggunaan)
 
-4. **Kontak Kami**
+4. **Update Kode**
+   - [Repositori Github](#repositori-github)
+
+5. **Kontak Kami**
    - [Dukungan](#dukungan)
 
 ## Instalasi
@@ -56,6 +59,11 @@ Jika kamu ingin menambahkan halaman baru, cukup salin file `src/index.html` dan 
 
 ### Lisensi Penggunaan
 [Lisensi Penggunaan GNU GPL](https://www.gnu.org/licenses/gpl-3.0.en.html) untuk Repotae Landing Page Template adalah lisensi bebas untuk disunting dan dipakai untuk keperluan pribadi maupun komersial. Namun, kamu **dilarang keras** menjual kembali atau mendistribusikan kembali kode template website ini tanpa izin tertulis dari pemiliknya.
+
+## Update Kode
+
+### Repositori Github
+Kamu bisa kunjungi dan clone atau download dari [repositori github ini](https://github.com/imamsutono/sales-report-saas) untuk mendapatkan update terbaru dari kode Repotae Landing Page Template.
 
 ## Kontak
 
