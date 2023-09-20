@@ -57,13 +57,11 @@ Jika kamu ingin menambahkan halaman baru, cukup salin file `src/index.html` dan 
 ### Lisensi Penggunaan
 [Lisensi Penggunaan GNU GPL](https://www.gnu.org/licenses/gpl-3.0.en.html) untuk Repotae Landing Page Template adalah lisensi bebas untuk disunting dan dipakai untuk keperluan pribadi maupun komersial. Namun, kamu **dilarang keras** menjual kembali atau mendistribusikan kembali kode template website ini tanpa izin tertulis dari pemiliknya.
 
-## Kontak Kami
+## Kontak
 
 ### Dukungan
-Jika kamu memiliki pertanyaan atau membutuhkan bantuan, jangan ragu untuk menghubungi saya melalui [di sini](https://api.whatsapp.com/send/?phone=6285730430616).
+Jika kamu memiliki pertanyaan atau membutuhkan bantuan, jangan ragu untuk menghubungi saya [di sini](https://api.whatsapp.com/send/?phone=6285730430616).
 
 Terima kasih telah memilih Repotae Landing Page Template! Saya berharap kamu dapat membuat website yang luar biasa dengan bantuan template ini.
 
 Selamat berkarya! 😊
-
-**Imam Sutono**
