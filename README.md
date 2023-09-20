@@ -11,6 +11,7 @@ Halo `devs`! Ini adalah panduan untuk membantu kamu menginstal dan menggunakan t
 2. **Penggunaan**
    - [Tampilan Umum](#tampilan-umum)
    - [Mengedit Konten](#mengedit-konten)
+   - [Mengubah atau Menambah Style](#mengubah-atau-menambah-style)
    - [Menambahkan Halaman Baru](#menambahkan-halaman-baru)
 
 3. **Lisensi**
@@ -39,6 +40,14 @@ Repotae Landing Page Template dibangun dengan HTML5 dan menggunakan framework Ta
 
 ### Mengedit Konten
 Untuk mengedit konten pada halaman website, buka file `src/index.html` menggunakan editor teks atau kode, dan cari bagian yang ingin kamu ubah. Selanjutnya, simpan perubahan kamu.
+
+### Mengubah atau Menambah Style
+Untuk keperluan ini, kamu perlu menggunakan `npm` atau `yarn` agar file `dist/output.css` dapat diperbarui dengan style yang kamu gunakan. Caranya adalah dengan:
+- Buka terminal, masuk ke direktori project ini
+- Pastikan kamu sudah menginstal Nodejs di perangkat kamu. Jika belum, silakan download [disini](https://nodejs.org/en)
+- Jalankan perintah `npm install` atau `yarn install`
+- Kemudian jalankan `npm run dev`
+- Buka file `src/index.html` pada browser. Setiap kamu melakukan perubahan pada class html yang kamu gunakan, maka `output.css` akan berubah juga. Refresh halaman untuk melihat perubahan.
 
 ### Menambahkan Halaman Baru
 Jika kamu ingin menambahkan halaman baru, cukup salin file `src/index.html` dan beri nama baru sesuai dengan kebutuhan kamu. Pastikan untuk menghubungkan halaman baru tersebut dengan file `src/index.html` untuk navigasi yang lancar.
